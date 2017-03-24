@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         case R.id.action_About:
             AlertDialog.Builder ad = new AlertDialog.Builder(this);
             ad.setTitle("About this APP");
-            ad.setMessage("\nAuthor : Wan-Yun Chen");
+            ad.setMessage("\nAuthor : Wan-Yun Cheng");
 
             DialogInterface.OnClickListener listener =
                 new DialogInterface.OnClickListener() {
